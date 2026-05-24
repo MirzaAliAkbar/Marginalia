@@ -7,6 +7,8 @@ import { StatCard } from '@/components/ui/StatCard'
 import { demoEssays } from '@/lib/demo-content'
 import { ProfileLinkCard } from '@/components/features/ProfileLinkCard'
 
+export const dynamic = 'force-dynamic'
+
 async function getDashboardData(userId: string) {
   const supabase = await createClient()
   const [

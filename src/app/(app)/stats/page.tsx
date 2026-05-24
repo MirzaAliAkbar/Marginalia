@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { StatsClient } from '@/components/features/StatsClient'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Reading Stats',
   description: 'Your reading analytics and statistics on Marginalia.',

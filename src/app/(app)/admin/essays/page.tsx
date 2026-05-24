@@ -4,6 +4,8 @@ import { redirect } from 'next/navigation'
 import { revalidatePath } from 'next/cache'
 import { isAdmin } from '@/lib/admin'
 
+export const dynamic = 'force-dynamic'
+
 async function togglePublish(essayId: string, publish: boolean) {
   'use server'
   const supabase = await createClient()

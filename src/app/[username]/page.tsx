@@ -4,6 +4,8 @@ import type { Metadata } from 'next'
 import { ProfileClient } from '@/components/features/ProfileClient'
 import { demoProfiles, demoEssays } from '@/lib/demo-content'
 
+export const dynamic = 'force-dynamic'
+
 export async function generateMetadata({ params }: { params: Promise<{ username: string }> }): Promise<Metadata> {
   const { username } = await params
 

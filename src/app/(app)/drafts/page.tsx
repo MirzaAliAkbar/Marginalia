@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { Button } from '@/components/ui/Button'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Drafts',
 }

@@ -3,6 +3,8 @@ import { EssayCard } from '@/components/features/EssayCard'
 import { DemoFeed } from '@/components/features/DemoFeed'
 import Link from 'next/link'
 
+export const dynamic = 'force-dynamic'
+
 interface SearchParams {
   scope?: string
 }

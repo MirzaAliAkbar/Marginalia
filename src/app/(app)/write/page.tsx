@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { WriteClient } from '@/components/features/WriteClient'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Write an Essay',
   description: 'Write about what you are reading on Marginalia.',
