@@ -50,14 +50,14 @@ npm -v
 Installation
 Clone the Repository
 
-Bash
+```Bash
 
 
 git clone [https://github.com/MirzaAliAkbar/Marginalia.git](https://github.com/MirzaAliAkbar/Marginalia.git)
 cd Marginalia
 Install Dependencies
 
-Bash
+```Bash
 
 
 npm install
@@ -77,13 +77,14 @@ NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 Run the Development Server
 
-Bash
+```Bash
 
 
 npm run dev
 # or
 pnpm dev
 Open http://localhost:3000 inside your web browser to view the application.
+```
 
 🗺️ Roadmap & Upcoming Enhancements
 [ ] Export essays directly to Markdown or PDF.
@@ -118,3 +119,4 @@ Website: mirzaaliakbar.github.io
 Live App: marginalia-tan.vercel.app
 
 Project Link: https://github.com/MirzaAliAkbar/Marginalia
+
